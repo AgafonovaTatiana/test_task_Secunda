@@ -1,0 +1,28 @@
+Для работы с базами данных в DBeaver были импортированы две таблицы (отчет 1 и отчет 2)
+При импорте из csv были автоматически были определены следующие типы столбцов
+
+отчет 1 
+| Колонка                           | Тип                   |
+|-----------------------------------|-----------------------|
+| №                                 | INT4                  |
+| Номер контракта                   | VARCHAR(50)           |
+| дата выдачи                       | VARCHAR(50)           |
+| Сумма выдачи                      | VARCHAR(50)           |
+| Задолженность по ОД               | VARCHAR(50)           |
+| Задолженность по %%               | VARCHAR(50)           |
+| Кол-во дней просрочки, фактическое| INT4                  |
+
+отчет 2
+| Колонка              | Тип                  |
+|----------------------|----------------------|
+| NumContract          | INT4                 |
+| ContractID           | INT4                 |
+| ClientID             | INT4                 |
+| inner_lead_id        | VARCHAR(50)          |
+| SubdivisionName      | VARCHAR(50)          |
+| issueDateTimestamp   | VARCHAR(50)          |
+| RepaymentPlanDate    | VARCHAR(50)          |
+| LoanAmount           | INT4                 |
+| Status               | VARCHAR(50)          |
+| DateStatus           | VARCHAR(50)          |
+| SumLastPay           | VARCHAR(50)          |
