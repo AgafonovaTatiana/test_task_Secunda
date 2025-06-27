@@ -16,3 +16,5 @@ Test task for Secunda company
 С помощью текстовых фильтров в колонке статус убираются строки, содержащие статус BANKRUPTCY или REPAID или EARLY REPAID
 
 После выгрузки из Power Query построена сводная таблица
+
+Запросы для заданий 4, 5 и 6 написаны на PostgreSQL
